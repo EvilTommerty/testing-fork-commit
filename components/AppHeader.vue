@@ -22,7 +22,8 @@
 </script>
 
 <template>
-  <div class="navbar bg-base-100">
+  <div class="mx-4 my-2">
+  <div class="navbar bg-primary rounded-xl">
     <div class="toast toast-end toast-top">
       <div v-for="notification in notifications" :class="notification.type">
         <div>
@@ -49,9 +50,9 @@
           <li v-if="!user"><NuxtLink to="/signin">Sign In</NuxtLink></li>
         </ul>
       </div>
-      <NuxtLink to="/" class="btn btn-ghost normal-case text-xl">Nuxt3 SAAS Boilerplate</NuxtLink>
+      <NuxtLink to="/" class="btn btn-ghost normal-case text-xl"><img src="https://s6.imgcdn.dev/vzoIH.webp" class="w-8 p-0.5"> Blurp!</NuxtLink>
     </div>
-    <div class="navbar-center hidden lg:flex">
+    <div class="navbar-end hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
         <li v-if="user"><NuxtLink to="/dashboard">Dashboard</NuxtLink></li>
         <li><NuxtLink to="/pricing">Pricing</NuxtLink></li>
@@ -83,4 +84,5 @@
       </div>
     </div>
   </div>
+</div>
 </template>

@@ -41,7 +41,7 @@
           action="/create-checkout-session" 
           method="POST"
           v-if="activeMembership && (activeMembership.access === ACCOUNT_ACCESS.OWNER || activeMembership.access !== ACCOUNT_ACCESS.ADMIN) && (activeMembership?.account.plan_name !== 'Individual Plan')">
-          <input type="hidden" name="price_id" value="price_1MpOiwJfLn4RhYiLqfy6U8ZR" />
+          <input type="hidden" name="price_id" value="price_1NUKEsJi1wp838pasueG9rzW" />
           <input type="hidden" name="account_id" :value="activeMembership?.account_id" />
           <button 
             type="submit" 
@@ -69,7 +69,7 @@
           action="/create-checkout-session" 
           method="POST"
           v-if="activeMembership && (activeMembership.access === ACCOUNT_ACCESS.OWNER || activeMembership.access !== ACCOUNT_ACCESS.ADMIN) && (activeMembership?.account.plan_name !== 'Team Plan')">
-          <input type="hidden" name="price_id" value="price_1MpOjtJfLn4RhYiLsjzAso90" />
+          <input type="hidden" name="price_id" value="price_1NUKFKJi1wp838pa20TluGht" />
           <input type="hidden" name="account_id" :value="activeMembership?.account_id" />
           <button 
             type="submit" 

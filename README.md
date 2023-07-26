@@ -228,3 +228,5 @@ Netlify is a bit rubbish at updating environment variables so you may need to ma
 - Changing the default domain e.g. setting to a custom domain - If you notice you are redirected to the wrong version of the site after signup to a stripe subscription, this means the URL env variable has not been reset by Netlify.  a manual deployment may fix it.
 
 To manually redeploy to to your Netlify dashboard and navigate to Deploys -> Trigger Deploy -> Deploy site
+
+.....
